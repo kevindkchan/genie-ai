@@ -2,7 +2,7 @@
     position: relative;
     height: 1px;
     background-color: #0a0a0a;
-    width: 66.0em;
+    width: 100%;
     margin: 0 auto;
     background-image: linear-gradient(left , #0a0a0a 2%, ##0a0a0a 50%, #0a0a0a 98%);
     background-image: -o-linear-gradient(left , #0a0a0a 2%, ##0a0a0a 50%, #0a0a0a 98%);

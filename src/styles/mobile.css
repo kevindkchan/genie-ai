@@ -1,4 +1,9 @@
 @media (max-width: 640px) {
+    .navbar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .navbar .navlinks,
     .navbar .waitlist {
         display: none;
@@ -8,6 +13,19 @@
       width: 80vw;
       height: 6rem;
       font-size: 14px;
+    }
+
+    .step {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .step-text {
+        align-items: center;
+    }
+
+    .step-icon {
+        margin-left: 0;
     }
 
     .line {

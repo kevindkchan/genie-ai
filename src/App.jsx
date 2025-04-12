@@ -4,6 +4,19 @@ import Header from "./components/Header";
 import Prompt from "./components/Prompt";
 import { Sparkles } from "./components/Sparkles";
 import Steps from "./components/Steps";
+import { Footer } from "./components/Footer";
+import { 
+  Github, 
+  Twitter, 
+  Blocks,
+  CodeXml,
+  CreditCard,
+  Handshake,
+  Scale,
+  Webhook, 
+  Heart,
+  Zap,
+} from "lucide-react"
 
 import "./styles/style.css";
 import "./styles/animations.css";
@@ -21,6 +34,43 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 const random = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
 const GenieLandingPage = () => {
+  const footerData = {
+    brand: {
+      name: "Genie",
+      description: "Granting digital wishes, one app at a time.",
+    },
+    socialLinks: [
+      { name: "GitHub", href: "https://github.com" },
+      { name: "Twitter", href: "https://twitter.com" },
+      { name: "Discord", href: "https://discord.com" },
+    ],
+    columns: [
+      {
+        title: "Product",
+        links: [
+          { name: "Features", href: "#", Icon: Blocks },
+          { name: "Pricing", href: "#", Icon: CreditCard },
+          { name: "Docs", href: "#", Icon: CodeXml },
+        ],
+      },
+      {
+        title: "Compare",
+        links: [
+          { name: "Bolt", href: "#", Icon: Zap },
+          { name: "Lovable", href: "#", Icon: Heart },
+        ],
+      },
+      {
+        title: "Legal",
+        links: [
+          { name: "Privacy Policy", href: "#", Icon: Scale },
+          { name: "Terms of Service", href: "#", Icon: Handshake },
+        ],
+      },
+    ],
+    copyright: "© 2025 Genie AI",
+  }
+
   useEffect(() => {
     const PARTICLES = document.querySelectorAll(".particle");
     PARTICLES.forEach((P) => {
@@ -90,10 +140,16 @@ const GenieLandingPage = () => {
           className="shadow-entrance absolute inset-x-0 bottom-0 h-full w-full [mask-image:radial-gradient(50%_50%,white,transparent_85%)]"
         />
       </div>
-      <div className="line container-entrance">
+      <div className="line scroll-animate">
         <div className="line-shadow shadow-entrance"></div>
       </div>
       <Steps />
+      <Footer
+        brand={footerData.brand}
+        socialLinks={footerData.socialLinks}
+        columns={footerData.columns}
+        copyright={footerData.copyright}
+      />
     </div>
   );
 };

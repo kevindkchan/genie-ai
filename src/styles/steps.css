@@ -33,7 +33,7 @@ h2 {
 }
 
 .step-text h1{
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .step {
@@ -48,9 +48,8 @@ h2 {
 	-webkit-background-clip: text;
 	color: transparent;
     font-family: "Rubik", sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
-    line-height: 32px;
 }
 
 .step-icon {
