@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/genie-ai/static/css/main.04a32b93.css",
+    "main.css": "/genie-ai/static/css/main.fb72fdbb.css",
     "main.js": "/genie-ai/static/js/main.8dbd62be.js",
     "static/js/453.13b32213.chunk.js": "/genie-ai/static/js/453.13b32213.chunk.js",
     "static/media/fa-solid-900.ttf": "/genie-ai/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
@@ -14,12 +14,12 @@
     "static/media/fa-v4compatibility.woff2": "/genie-ai/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/genie-ai/index.html",
     "static/media/figma.svg": "/genie-ai/static/media/figma.0f4098dccb2a84e24331b00bc6a8dcf8.svg",
-    "main.04a32b93.css.map": "/genie-ai/static/css/main.04a32b93.css.map",
+    "main.fb72fdbb.css.map": "/genie-ai/static/css/main.fb72fdbb.css.map",
     "main.8dbd62be.js.map": "/genie-ai/static/js/main.8dbd62be.js.map",
     "453.13b32213.chunk.js.map": "/genie-ai/static/js/453.13b32213.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04a32b93.css",
+    "static/css/main.fb72fdbb.css",
     "static/js/main.8dbd62be.js"
   ]
 }
