@@ -1,0 +1,38 @@
+.marble {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow:
+      0 0 20px #fff,
+      -20px 0 80px rgb(174, 0, 255),
+      20px 0 80px hsl(260 97% 61% / 0.75),
+      inset 0 0 50px #fff,
+      inset 50px 0 80px rgb(174, 0, 255),
+      inset -50px 0 80px hsl(260 97% 61% / 0.75),
+      inset 50px 0 300px rgb(174, 0, 255),
+      inset -50px 0 300px hsl(260 97% 61% / 0.75);
+    animation: 
+        pulsate 6s linear infinite,
+        fade-entrance 2s ease 1.5s forwards;
+    transition: all 0.5s ease;
+    opacity: 0;
+}
+  
+  @keyframes pulsate {
+    50% {
+      box-shadow:
+        0 0 20px #fff,
+        20px 0 80px rgb(174, 0, 255),
+        -20px 0 80px hsl(260 97% 61% / 0.75),
+        inset 0 0 50px #fff,
+        inset -50px 0 80px rgb(174, 0, 255),
+        inset 50px 0 80px hsl(260 97% 61% / 0.75),
+        inset -50px 0 300px rgb(174, 0, 255),
+        inset 50px 0 300px hsl(260 97% 61% / 0.75);
+    }
+  }
+
+.marble:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}

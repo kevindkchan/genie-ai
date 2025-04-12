@@ -1,0 +1,62 @@
+.steps-container h1 span {
+    font-weight: 600;
+}
+
+h2 {
+    color: white;
+    background: linear-gradient(#ccc, #a5a5a5);
+	-webkit-background-clip: text;
+	color: transparent;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 0px;
+    margin-top: 24px;
+    margin-left: 20px;
+}
+
+.steps {
+    max-width: 944px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 128px;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+.step-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.step-text h1{
+    font-size: 32px;
+}
+
+.step {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.step-subheader {
+    color: white;
+    background: linear-gradient(#8f8f8f, #6d6d6d);
+	-webkit-background-clip: text;
+	color: transparent;
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.step-icon {
+    font-size: 96px;
+    background: linear-gradient(hsl(260 97% 61% / 0.75), rgb(158, 58, 183));
+    -webkit-background-clip: text;
+	color: transparent;
+    margin-left: auto;
+}

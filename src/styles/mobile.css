@@ -1,0 +1,16 @@
+@media (max-width: 640px) {
+    .navbar .navlinks,
+    .navbar .waitlist {
+        display: none;
+    }
+    
+    .textarea {
+      width: 80vw;
+      height: 6rem;
+      font-size: 14px;
+    }
+
+    .line {
+        width: 100%;
+    }
+}

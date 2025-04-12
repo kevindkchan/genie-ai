@@ -1,0 +1,84 @@
+html, body {
+	overflow-x: hidden;
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+body {
+    color-scheme: dark;
+	--active: 0;
+	background: hsl(
+		260
+		calc(var(--active) * 97%)
+		6%
+	);
+	min-height: 100vh;
+	font-family: system-ui, sans-serif;
+	transition: background var(--transition);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+
+.prompt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.buttons {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 128px;
+}
+
+.figma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.25s ease;
+}
+
+.figma img {
+    filter: contrast(0%);
+    transition: all 0.3s ease;
+    margin-bottom: 4px;
+}
+
+.figma text {
+    transition: all 0.25s ease;
+}
+
+.figma:hover {
+    background: radial-gradient(37.44% 109.75% at 82.64% 95.34%,#0acf8314,#0acf8300),radial-gradient(40.33% 118.22% at 63.8% 105.93%,#1abcfe1f,#1abcfe00),radial-gradient(39.75% 116.53% at 38.2% 108.9%,#a259ff33,#a259ff00),radial-gradient(41.2% 120.76% at 15.5% 100%,#f24e1e1f,#f24e1e00);
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.25) inset;
+    transition: all 0.25s ease;
+}
+
+.figma:hover img {
+    opacity: 0.75;
+    filter: contrast(100%);
+    transition: all 0.25s ease;
+}
+
+.figma:hover .text {
+    opacity: 0.6;
+	color: rgba(255, 255, 255, 1);
+    transition: color 0.25s ease;
+}

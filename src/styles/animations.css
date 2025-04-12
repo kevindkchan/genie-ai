@@ -1,0 +1,51 @@
+@keyframes blur-entrance {
+    0% {
+      opacity: 0;
+      filter: blur(10px);
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      filter: blur(0);
+      transform: translateY(0);
+    }
+}
+
+@keyframes fade-entrance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+  
+.nav-entrance {
+    animation: blur-entrance 0.8s ease-out forwards;
+}
+
+.container-entrance {
+    animation: blur-entrance 0.8s ease-out forwards;
+    animation-delay: 0.1s;
+}
+
+.shadow-entrance {
+    animation: fade-entrance 2s ease;
+    animation-delay: 1.5s;
+    animation-fill-mode: both;
+}
+
+.scroll-animate {
+    opacity: 0;
+}
+
+.scroll-animate.animate {
+    animation: blur-entrance 0.8s ease-out forwards;
+    animation-delay: 0.1s;
+}
+
+.nav-entrance,
+.shadow-entrance,
+.container-entrance {
+  opacity: 0;
+}
