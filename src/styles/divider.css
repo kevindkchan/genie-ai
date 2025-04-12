@@ -1,7 +1,7 @@
 .line {
     position: relative;
     height: 1px;
-    background-color: ##0a0a0a;
+    background-color: #0a0a0a;
     width: 66.0em;
     margin: 0 auto;
     background-image: linear-gradient(left , #0a0a0a 2%, ##0a0a0a 50%, #0a0a0a 98%);
@@ -9,7 +9,7 @@
     background-image: -moz-linear-gradient(left , #0a0a0a 2%, ##0a0a0a 50%, #0a0a0a 98%);
     background-image: -webkit-linear-gradient(left , #0a0a0a 2%, ##0a0a0a 50%, #0a0a0a 98%);
     background-image: -ms-linear-gradient(left , #0a0a0a 2%, ##0a0a0a 50%, #0a0a0a 98%);
-    background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, #0a0a0a), color-stop(0.5, rgba(255, 255, 255, 0.5)), color-stop(0.98, #0a0a0a) );
+    background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, #0a0a0a), color-stop(0.5, rgba(255, 255, 255, 0.1)), color-stop(0.98, #0a0a0a) );
 }
 
 .line-shadow {

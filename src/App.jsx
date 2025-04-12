@@ -1,8 +1,9 @@
 import { useEffect } from "react";
 import Navbar from "./components/Navbar";
-import MagicHeader from "./components/Header";
-import PromptArea from "./components/Prompt";
-import StepsSection from "./components/Steps";
+import Header from "./components/Header";
+import Prompt from "./components/Prompt";
+import { Sparkles } from "./components/Sparkles";
+import Steps from "./components/Steps";
 
 import "./styles/style.css";
 import "./styles/animations.css";
@@ -78,15 +79,21 @@ const GenieLandingPage = () => {
   }, []);
 
   return (
-    <div className="container">
+    <div className="layout-container">
       <Navbar />
-      <MagicHeader />
+      <Header />
       <div className="marble"></div>
-      <PromptArea />
+      <Prompt />
+      <div className="shadow-entrance relative -mt-32 h-96 w-screen overflow-hidden [mask-image:radial-gradient(50%_50%,white,transparent)] before:absolute before:inset-0 before:bg-[radial-gradient(circle_at_bottom_center,#8350e8,transparent_70%)] before:opacity-40 after:absolute after:-left-1/2 after:top-1/2 after:aspect-[1/0.7] after:w-[200%] after:rounded-[100%] after:border-t after:border-[#7876c566] after:bg-zinc-900">
+        <Sparkles
+          density={1200}
+          className="shadow-entrance absolute inset-x-0 bottom-0 h-full w-full [mask-image:radial-gradient(50%_50%,white,transparent_85%)]"
+        />
+      </div>
       <div className="line container-entrance">
         <div className="line-shadow shadow-entrance"></div>
       </div>
-      <StepsSection />
+      <Steps />
     </div>
   );
 };

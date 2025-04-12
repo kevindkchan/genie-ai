@@ -26,9 +26,11 @@ body {
 	min-height: 100vh;
 	font-family: system-ui, sans-serif;
 	transition: background var(--transition);
+    margin: 0;
+    padding: 0;
 }
 
-.container {
+.layout-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,6 +58,7 @@ body {
 }
 
 .figma img {
+    scale: 0.7;
     filter: contrast(0%);
     transition: all 0.3s ease;
     margin-bottom: 4px;

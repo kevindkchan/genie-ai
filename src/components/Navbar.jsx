@@ -1,7 +1,7 @@
 import logo from '../assets/logo2.png';
 
 const Navbar = () => (
-  <div className="navbar nav-entrance">
+  <div className="navbar nav-entrance font-system">
     <a className="logo" href="#">
       <img src={logo} alt="logo" /> Genie
     </a>
