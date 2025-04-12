@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/genie-ai/static/css/main.34865585.css",
-    "main.js": "/genie-ai/static/js/main.76fb78d9.js",
+    "main.css": "/genie-ai/static/css/main.04a32b93.css",
+    "main.js": "/genie-ai/static/js/main.8dbd62be.js",
     "static/js/453.13b32213.chunk.js": "/genie-ai/static/js/453.13b32213.chunk.js",
     "static/media/fa-solid-900.ttf": "/genie-ai/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/fa-brands-400.ttf": "/genie-ai/static/media/fa-brands-400.1815e00441357e01619e.ttf",
@@ -12,14 +12,14 @@
     "static/media/fa-regular-400.woff2": "/genie-ai/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
     "static/media/fa-v4compatibility.ttf": "/genie-ai/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/genie-ai/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
-    "static/media/figma.svg": "/genie-ai/static/media/figma.0f4098dccb2a84e24331b00bc6a8dcf8.svg",
     "index.html": "/genie-ai/index.html",
-    "main.34865585.css.map": "/genie-ai/static/css/main.34865585.css.map",
-    "main.76fb78d9.js.map": "/genie-ai/static/js/main.76fb78d9.js.map",
+    "static/media/figma.svg": "/genie-ai/static/media/figma.0f4098dccb2a84e24331b00bc6a8dcf8.svg",
+    "main.04a32b93.css.map": "/genie-ai/static/css/main.04a32b93.css.map",
+    "main.8dbd62be.js.map": "/genie-ai/static/js/main.8dbd62be.js.map",
     "453.13b32213.chunk.js.map": "/genie-ai/static/js/453.13b32213.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34865585.css",
-    "static/js/main.76fb78d9.js"
+    "static/css/main.04a32b93.css",
+    "static/js/main.8dbd62be.js"
   ]
 }
