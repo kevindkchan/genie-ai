@@ -1,5 +1,5 @@
 const Header = () => (
-    <h1 className="container-entrance font-rubik">
+    <h1 className="header-entrance font-rubik">
       Dream it. Wish it.{' '}
       <span className="magic">
         {[...Array(3)].map((_, i) => (

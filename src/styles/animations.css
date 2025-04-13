@@ -20,13 +20,23 @@
   }
 }
   
-.nav-entrance {
+.entrance {
     animation: blur-entrance 0.8s ease-out forwards;
 }
 
-.container-entrance {
+.header-entrance {
     animation: blur-entrance 0.8s ease-out forwards;
-    animation-delay: 0.1s;
+    animation-delay: 0.3s;
+}
+
+.prompt-entrance {
+  animation: blur-entrance 0.8s ease-out forwards;
+  animation-delay: 0.6s;
+}
+
+.buttons-entrance {
+  animation: blur-entrance 0.8s ease-out forwards;
+  animation-delay: 0.9s;
 }
 
 .shadow-entrance {
@@ -44,8 +54,10 @@
     animation-delay: 0.1s;
 }
 
-.nav-entrance,
+.entrance,
 .shadow-entrance,
-.container-entrance {
+.header-entrance,
+.prompt-entrance,
+.buttons-entrance {
   opacity: 0;
 }

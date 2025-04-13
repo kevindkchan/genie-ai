@@ -6,7 +6,7 @@ const Prompt = () => {
   const [showGradient, setShowGradient] = useState(false);
 
   return (
-    <div className="prompt container-entrance">
+    <div className="prompt prompt-entrance">
       <div className="textarea-wrapper">
         <div className="textarea-gradient shadow-entrance"></div>
         <textarea
@@ -17,7 +17,7 @@ const Prompt = () => {
         <div className={`textarea-gradient2 ${showGradient ? "show" : ""}`}></div>
       </div>
 
-      <div className="buttons container-entrance font-system">
+      <div className="buttons buttons-entrance font-system">
         <div className="sparkle-button">
           <button
             ref={sparkleButtonRef}
