@@ -36,7 +36,7 @@ const random = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 const GenieLandingPage = () => {
   const footerData = {
     brand: {
-      name: "Genie",
+      name: "Genie AI",
       description: "Granting digital wishes, one app at a time.",
     },
     socialLinks: [

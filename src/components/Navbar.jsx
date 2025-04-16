@@ -3,7 +3,7 @@ import logo from '../assets/logo2.png';
 const Navbar = () => (
   <div className="navbar font-system">
     <a className="logo" href="#">
-      <img src={logo} alt="logo" /> Genie
+      <img src={logo} alt="logo" /> Genie AI
     </a>
     <div className="navlinks">
       <a href="#">Models</a>
